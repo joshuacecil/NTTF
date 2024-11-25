@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-08" />
+  <title>book index</title>
+</head>
+<style>
+  ol {
+    font-weight: bold;
+  }
+
+  ul li {
+    list-style-type: none;
+    line-height: 1.6;
+    font-weight: normal;
+  }
+
+  ul {
+    padding: 0rem 0 0 .1rem;
+  }
+
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+  }
+
+  h4 {
+    margin-bottom: 5px;
+  }
+
+  span {
+    margin: 1rem;
+  }
+</style>
+
+<body>
+  <ol>
+    <li>
+      <h4>Intro .............................</h4>
+    </li>
+    <li>
+      <h4>Who this book is for</h4>
+      <ul>
+        <li>
+          2.1 <span>Why I wrote this eBook</span>
+        </li>
+        <li>2.2 <span>Prerequisites for completing this guide</span></li>
+        <li>2.3 <span>Conventions in this book</span>
+        </li>
+        <li>2.4 <span>Disclaimer</span> </li>
+      </ul>
+    </li>
+    <li>
+      <h4>AWS account setup</h4>
+      <ul>
+
+        <li>3.1<span>New account security config</span> </li>
+      </ul>
+    </li>
+    <li>
+      <h4>RDS instance config</h4>
+      <ul>
+
+        <li>4.1
+          <span>Choosing the correct RDS instance specs</span>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h4>Configuring the PostgreSQL</h4>
+      <ul>
+        <li>5.1<span>Tuning the performance related-settings</span></li>
+        <li>5.2<span>Configuring secure SSL connection</span></li>
+        <li>5.3<span>Setting custom Parameter Groups</span></li>
+        <li>5.4<span>Enable verify-ca SSL mode</span></li>
+      </ul>
+    </li>
+    <li>
+      <h4>Data migration</h4>
+      <ul>
+
+        <li>6.1 <span>How to measure the expected downtime</span>
+        </li>
+        <li>6.2<span>Leverage AWS network to speed up the migration
+          </span></li>
+        <li>6.3<span>How to use test database instead of production data</span></li>
+        <li>6.4<span>Why you cannot use AWS Migration Service</span></li>
+        <li>6.5<span>More tips on reducing the migration duration</span></li>
+        <li>6.6<span>Why you should provision a Heroku follower database</span></li>
+        <li>6.7<span>Commands cheatsheet for Heroku to RDS migration</span></li>
+      </ul>
+    </li>
+    <li>
+      <h4>Datah4ase monitoring and alerts</h4>
+      <ul>
+
+        <li>7.1<span>Configuring Cloudwatch dashboard</span></li>
+        <li>7.2<span>Configuring Cloudwatch alarms</span></li>
+        <li>7.3<span>Recommended RDS Cloudwatch alarms</span></li>
+      </ul>
+    </li>
+    <li>
+      <h4>Redutant cross-account backups</h4>
+      <ul>
+
+        <li>8.1<span>Configuring S3, AWS CLI, and IAM user..</span></li>
+        <li>8.2<span>The backup bash script</span></li>
+        <li>8.3<span>Configuring another AWS account</span></li>
+      </ul>
+    </li>
+  </ol>
+</body>
+
+</html>
