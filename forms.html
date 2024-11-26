@@ -44,10 +44,12 @@
 
             <input type="number" />
         </div>
-        <div>
+        <div style="    display: flex
+;
+    justify-content: flex-start;">
             <label for="Date">Date</label>
 
-            <input type="date" />
+            <input type="date" style="margin-left:3.5rem" />
         </div>
 
         <div>
@@ -59,40 +61,48 @@
         <div>
             <label for="File">File</label>
 
-            <input type="file" />
+            <input type="file" style="margin-left:1rem" />
         </div>
 
-        <div>
+        <div style="display: flex
+;
+    justify-content: flex-start;">
             <label for="Color">Color</label>
 
-            <input type="color" />
+            <input type="color" style="margin-left:1rem" />
         </div>
 
-        <p>Gender</p>
-        <div>
+        <p><b> Gender</b></p>
+        <div style="display: flex
+;
+    justify-content: flex-start">
             <input type="radio" id="male" name="gender" value="Male" />
 
             <label for="male">Male</label>
 
-            <input type="radio" id="female" name="gender" value="Female" />  
+            <input type="radio" id="female" name="gender" value="Female" style="margin-left:1rem" />  
 
             <label for="female">Female</label>
         </div>
 
-        <p>Preferred color</p>
-        <div>
+        <p><b>Preferred color</b></p>
+        <div style="display: flex
+;
+    justify-content: flex-start;">
 
             <label for="Red">Red</label>
 
             <input type="checkbox" name="Red" id="Red" value="Red" />
 
-            <label for="Blue">Blue</label>
+            <label for="Blue" style="margin-left:1rem">Blue</label>
 
             <input type="checkbox" name="Blue" id="Blue" value="Blue" />
         </div>
-        <div>
+        <div style="display: flex
+;
+    justify-content: flex-start;">
             <label for="city">city</label>
-            <select name="city" id="city">
+            <select name="city" id="city" style="margin-left:1rem">
                 <option value="Bengalore">Bengalore</option>
 
                 <option value="Chennai">Chennai</option>
@@ -100,10 +110,10 @@
                 <option value="Trichy">Trichy</option>
             </select>
         </div>
-        <label for="text">Review</label>
+        <label for="text" style="display:block">Review</label>
         <textarea name="text" cols="33" rows="4"> </textarea>
         <div>
-            <input type="submit" value="submit" />
+            <input type="submit" value="submit" style="margin-top:1rem;padding:.4rem .9rem" />
         </div>
     </form>
     <hr />
